@@ -59,3 +59,198 @@ ol{
   font-family: 'Pacifico', cursive;
   font-size: 30px;
 }
+
+
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+      .main_div{
+        background-color:brown ;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center_div{
+        width: 98%;
+        height: 70%;
+        background-color: white;
+        box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.75);
+        border-radius: 30px 30px 30px 30px;
+      }
+      .listitems{
+        width: 20rem;
+        display: flex;
+        justify-content: space-between;
+        overflow-wrap: break-word;
+        word-wrap    : break-word;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        overflow:auto
+      }
+     }
+
+     @media only screen 
+    and (device-width : 1024px)
+    and (device-height : 1366px){
+      .main_div{
+        background-color:brown ;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center_div{
+        width: 80%;
+        height: 70%;
+        background-color: white;
+        box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.75);
+        border-radius: 30px 30px 30px 30px;
+      }
+      .listitems{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        overflow-wrap: break-word;
+        word-wrap    : break-word;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        overflow:auto
+      }
+      .searchtypeandsearch{
+        margin-top: 20px;
+        width: auto;
+        display: flex;
+        margin-left: 20px;
+      }
+    }
+    @media only screen 
+    and (device-width : 768px)
+    and (device-height : 1024px){
+      .main_div{
+        background-color:brown ;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center_div{
+        width: 80%;
+        height: 70%;
+        background-color: white;
+        box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.75);
+        border-radius: 30px 30px 30px 30px;
+      }
+      .listitems{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        overflow-wrap: break-word;
+        word-wrap    : break-word;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        overflow:auto
+      }
+      .searchtypeandsearch{
+        margin-top: 20px;
+        width: auto;
+        display: flex;
+        margin-left: 20px;
+      }
+    }
+
+    @media only screen 
+    and (device-width : 320px)
+    and (device-height : 568px){
+      .main_div{
+        background-color:brown ;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center_div{
+        width: 99%;
+        height: 70%;
+        background-color: white;
+        box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.75);
+        border-radius: 30px 30px 30px 30px;
+      }
+      .listitems{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        overflow-wrap: break-word;
+        word-wrap    : break-word;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        overflow:auto
+      }
+      .searchtypeandsearch{
+        margin-top: 20px;
+        width: 10rem;
+        display: flex;
+        margin-left: 20px;
+      }
+      input{
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-bottom: 2px solid black;
+        outline: none;
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+      }
+    }
+
+    @media only screen 
+    and (device-width : 540px)
+    and (device-height : 720px){
+      .main_div{
+        background-color:brown ;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center_div{
+        width: 99%;
+        height: 80%;
+        background-color: white;
+        box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.75);
+        border-radius: 30px 30px 30px 30px;
+      }
+      .listitems{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        overflow-wrap: break-word;
+        word-wrap    : break-word;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        overflow:auto
+      }
+      .searchtypeandsearch{
+        margin-top: 20px;
+        width: 10rem;
+        display: flex;
+        margin-left: 20px;
+      }
+      input{
+        width: 400px;
+        height: 40px;
+        border: none;
+        border-bottom: 2px solid black;
+        outline: none;
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+      }
+    }
