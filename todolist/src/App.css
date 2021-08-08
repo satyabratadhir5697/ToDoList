@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Pacifico&family=Playfair+Display:ital,wght@0,400;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_div{
+  background-color:brown ;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center_div{
+  width: 28%;
+  height: 70%;
+  background-color: white;
+  box-shadow: 2px 3px 10px 4px rgba(0,0,0,0.75);
+  border-radius: 30px 30px 30px 30px;
+}
+h1{
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(19, 61, 61);
+  width: auto;
+  font-family: 'Libre Baskerville', serif;
+  color: green;
+}
+.searchtypeandsearch{
+  margin-top: 20px;
+  width: 80%;
+  display: flex;
+  margin-left: 20px;
+}
+input{
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+.material-icons-outlined{
+  color: red;
+  font-size: 40px;
+}
+ol{
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 10%;
+}
+.listitems{
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  word-wrap: break-word;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
